@@ -1,17 +1,15 @@
-//
-//  MemorizeApp.swift
-//  Memorize
-//
-//  Created by Nick Shelley on 3/16/24.
-//
-
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct MemorizeApp: App {
-    var body: some Scene {
-        WindowGroup {
-            EmptyView()
-        }
+  static let store = Store(initialState: ReviewFeature.State()) {
+    ReviewFeature()
+      ._printChanges()
+  }
+  var body: some Scene {
+    WindowGroup {
+      ReviewView(store: MemorizeApp.store)
     }
+  }
 }
