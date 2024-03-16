@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1160B5462BA5E91C001C5C41 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1160B5452BA5E91C001C5C41 /* ComposableArchitecture */; };
+		1160B5482BA5ED9D001C5C41 /* ReviewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160B5472BA5ED9D001C5C41 /* ReviewFeature.swift */; };
+		1160B54A2BA5F428001C5C41 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160B5492BA5F428001C5C41 /* ReviewView.swift */; };
 		11A64D892BA5E18C0051C482 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A64D882BA5E18C0051C482 /* MemorizeApp.swift */; };
-		11A64D8B2BA5E18C0051C482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A64D8A2BA5E18C0051C482 /* ContentView.swift */; };
 		11A64D8D2BA5E18D0051C482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A64D8C2BA5E18D0051C482 /* Assets.xcassets */; };
 		11A64D902BA5E18D0051C482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A64D8F2BA5E18D0051C482 /* Preview Assets.xcassets */; };
 		11A64D9A2BA5E18D0051C482 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A64D992BA5E18D0051C482 /* MemorizeTests.swift */; };
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1160B5472BA5ED9D001C5C41 /* ReviewFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewFeature.swift; sourceTree = "<group>"; };
+		1160B5492BA5F428001C5C41 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		11A64D852BA5E18C0051C482 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A64D882BA5E18C0051C482 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		11A64D8A2BA5E18C0051C482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11A64D8C2BA5E18D0051C482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A64D8F2BA5E18D0051C482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11A64D952BA5E18D0051C482 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1160B5462BA5E91C001C5C41 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				11A64D882BA5E18C0051C482 /* MemorizeApp.swift */,
-				11A64D8A2BA5E18C0051C482 /* ContentView.swift */,
+				1160B5472BA5ED9D001C5C41 /* ReviewFeature.swift */,
+				1160B5492BA5F428001C5C41 /* ReviewView.swift */,
 				11A64D8C2BA5E18D0051C482 /* Assets.xcassets */,
 				11A64D8E2BA5E18D0051C482 /* Preview Content */,
 			);
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = Memorize;
+			packageProductDependencies = (
+				1160B5452BA5E91C001C5C41 /* ComposableArchitecture */,
+			);
 			productName = Memorize;
 			productReference = 11A64D852BA5E18C0051C482 /* Memorize.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 11A64D7C2BA5E18C0051C482;
+			packageReferences = (
+				1160B5442BA5E91C001C5C41 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 11A64D862BA5E18C0051C482 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A64D8B2BA5E18C0051C482 /* ContentView.swift in Sources */,
+				1160B54A2BA5F428001C5C41 /* ReviewView.swift in Sources */,
+				1160B5482BA5ED9D001C5C41 /* ReviewFeature.swift in Sources */,
 				11A64D892BA5E18C0051C482 /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +594,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1160B5442BA5E91C001C5C41 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1160B5452BA5E91C001C5C41 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1160B5442BA5E91C001C5C41 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11A64D7D2BA5E18C0051C482 /* Project object */;
 }
