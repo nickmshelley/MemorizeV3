@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1132DAB32BAB906F005A3CF1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132DAB22BAB906F005A3CF1 /* CardView.swift */; };
 		1160B5462BA5E91C001C5C41 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1160B5452BA5E91C001C5C41 /* ComposableArchitecture */; };
 		1160B5482BA5ED9D001C5C41 /* ReviewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160B5472BA5ED9D001C5C41 /* ReviewFeature.swift */; };
 		1160B54A2BA5F428001C5C41 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1160B5492BA5F428001C5C41 /* ReviewView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1132DAB22BAB906F005A3CF1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		1160B5472BA5ED9D001C5C41 /* ReviewFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewFeature.swift; sourceTree = "<group>"; };
 		1160B5492BA5F428001C5C41 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		11A64D852BA5E18C0051C482 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,7 @@
 				11A64D882BA5E18C0051C482 /* MemorizeApp.swift */,
 				1160B5472BA5ED9D001C5C41 /* ReviewFeature.swift */,
 				1160B5492BA5F428001C5C41 /* ReviewView.swift */,
+				1132DAB22BAB906F005A3CF1 /* CardView.swift */,
 				11A64D8C2BA5E18D0051C482 /* Assets.xcassets */,
 				11A64D8E2BA5E18D0051C482 /* Preview Content */,
 			);
@@ -270,6 +273,7 @@
 			files = (
 				1160B54A2BA5F428001C5C41 /* ReviewView.swift in Sources */,
 				1160B5482BA5ED9D001C5C41 /* ReviewFeature.swift in Sources */,
+				1132DAB32BAB906F005A3CF1 /* CardView.swift in Sources */,
 				11A64D892BA5E18C0051C482 /* MemorizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
