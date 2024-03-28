@@ -3,7 +3,7 @@ import ComposableArchitecture
 
 @main
 struct MemorizeApp: App {
-  static let store = Store(initialState: ReviewFeature.State()) {
+  static let store = Store(initialState: ReviewFeature.mock) {
     ReviewFeature()
       ._printChanges()
   }
